@@ -1,0 +1,51 @@
+.list-personagem{
+    list-style: none;
+    padding: 0%;
+
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.personagem{
+    background-color: red;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.personagem img{
+    height: 80px;
+}
+
+.personagem .number{
+    text-align: end;
+    font-size: 12px;
+    font-weight: 600;
+    color:aliceblue;
+    opacity: 40%;
+    padding: 0;
+
+}
+
+.personagem .name{
+    padding: 0;
+    margin: 0;
+}
+
+.personagem .detail{
+    display: flex;
+}
+
+.personagem .type{
+    font-size: 10px;
+    background-color: yellowgreen;
+    border-radius: 2rem;
+    padding: 3px;
+    margin: 3px 3px 3px 0;
+}
+
+@media screen and (min-width: 600px){
+    .lista-personagem{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
